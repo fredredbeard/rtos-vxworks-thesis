@@ -1,26 +1,26 @@
-# Sistemi Operativi Real-Time, con un'analisi delle caratteristiche e delle performance di VxWorks
+# Real-Time Operating Systems, with a Features and Performance Analysis of VxWorks
 
-Tesi di Laurea — Corso di Laurea in Informatica
-Scuola di Scienze Matematiche, Fisiche e Naturali, Università degli Studi di Firenze
-**Autore:** Federico Lombardi · **Relatore:** Prof. Rosario Pugliese · A.A. 2024-2025
+Bachelor's Thesis — Computer Science Degree Program
+School of Mathematical, Physical and Natural Sciences, University of Florence
+**Author:** Federico Lombardi · **Advisor:** Prof. Rosario Pugliese · A.Y. 2024-2025
 
-## Descrizione
+## Description
 
-Tesi su sistemi operativi real-time (RTOS), con analisi approfondita di **VxWorks** (Wind River Systems), RTOS proprietario usato in settori critici (spazio, difesa, automotive, motorsport).
+Thesis on real-time operating systems (RTOS), with an in-depth analysis of **VxWorks** (Wind River Systems), a proprietary RTOS used in safety-critical sectors (aerospace, defense, automotive, motorsport).
 
-## Contenuti
+## Contents
 
-1. **Introduzione** — obiettivi e struttura tesi.
-2. **Sistemi real-time** — differenze soft/firm/hard real-time, caratteristiche, concezioni errate, classificazione algoritmi di scheduling.
-3. **Scheduling task aperiodici** — algoritmi Jackson, Horn, Bratley, Spring, Latest Deadline First, EDF con vincoli di precedenza.
-4. **Scheduling task periodici** — Rate Monotonic, Earliest Deadline First, Deadline Monotonic, confronto RM vs EDF.
-5. **Real-Time Operating Systems** — organizzazione RTOS, gestione memoria (reale/virtuale, allocazione dinamica, overflow dello stack), gestione interrupt, task deadline, inversione delle priorità (priority ceiling, priority inheritance).
-6. **VxWorks** — caratteristiche (task/scheduling, sincronizzazione, IPC, ambiente cross-compiled, file system), design e risultati test delle performance (task switching, preemption, latenza interrupt, comunicazione messaggi, semaphore shuffling), confronto con altri RTOS, casi d'uso reali:
+1. **Introduction** — thesis goals and structure.
+2. **Real-time systems** — differences between soft/firm/hard real-time, key characteristics, common misconceptions, classification of scheduling algorithms.
+3. **Scheduling algorithms for aperiodic tasks** — Jackson, Horn, Bratley, Spring algorithms, Latest Deadline First, EDF with precedence constraints.
+4. **Scheduling algorithms for periodic tasks** — Rate Monotonic, Earliest Deadline First, Deadline Monotonic, RM vs EDF comparison.
+5. **Real-Time Operating Systems** — RTOS organization, memory management (real/virtual address space, dynamic allocation, stack overflow checking), interrupt handling, task deadlines, priority inversion (priority ceiling, priority inheritance).
+6. **VxWorks** — features (task/scheduling, synchronization, IPC, cross-compiled development environment, file systems), performance test design and results (task switching, preemption, interrupt latency, message communication, semaphore shuffling), comparison with other RTOS, real-world use cases:
    - NASA Mars Rover Curiosity
-   - Leonardo S.p.A. (difesa)
-   - Telemetria in Formula 1 (Magneti Marelli)
-7. **Conclusioni e sviluppi futuri** — RTOS multi-core, standard di certificazione (ARINC653, AUTOSAR), sicurezza dei RTOS (SCADA, vulnerabilità note), integrazione con intelligenza artificiale.
+   - Leonardo S.p.A. (defense)
+   - Formula 1 telemetry (Magneti Marelli)
+7. **Conclusions and future developments** — multi-core RTOS, certification standards (ARINC653, AUTOSAR), RTOS security (SCADA, known vulnerabilities), integration with artificial intelligence.
 
-## File
+## Files
 
-`LombardiFederico.pdf` — testo completo (48 pagine).
+`LombardiFederico.pdf` — full text (48 pages).
