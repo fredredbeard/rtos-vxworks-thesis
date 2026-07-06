@@ -2,6 +2,7 @@
 
 Bachelor's Thesis — Computer Science Degree Program
 School of Mathematical, Physical and Natural Sciences, University of Florence
+
 **Author:** Federico Lombardi · **Advisor:** Prof. Rosario Pugliese · A.Y. 2024-2025
 
 ## Description
